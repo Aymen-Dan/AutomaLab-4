@@ -1,0 +1,3 @@
+- name: 'Check Java Version'
+  run: |
+    java --version
