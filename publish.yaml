@@ -1,0 +1,5 @@
+- name: 'Publish JAR'
+  uses: actions/upload-artifact@v2-preview
+  with:
+    name: ‘cicd-demo-${{env.VERSION}}-all.jar'
+    path: build/libs/*-all.jar
